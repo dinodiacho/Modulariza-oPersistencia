@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="compralivro:jar">
+    <output-path>$PROJECT_DIR$/..</output-path>
+    <root id="archive" name="compralivro.jar">
+      <element id="module-output" name="compralivro" />
+      <element id="directory" name="ressources">
+        <element id="file-copy" path="$PROJECT_DIR$/../diagrama_classes.pdf" />
+      </element>
+    </root>
+  </artifact>
+</component>
