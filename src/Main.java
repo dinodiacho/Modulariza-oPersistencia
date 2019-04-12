@@ -17,5 +17,6 @@ public class Main{
         Repositorio repo = new RepositorioMem();
         repo.adicionaEntradaNovoLivro(entradaNovoLivro);
         repo.adicionaEncomenda(encomenda);
+        System.out.println();
     }
 }
