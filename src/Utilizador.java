@@ -1,10 +1,12 @@
 public class Utilizador {
     private String nome;
     private String estado;
+    TipoUtilizador tipoUtilizador;
 
-    public Utilizador(String nome, String estado) {
+    public Utilizador(String nome, String estado, TipoUtilizador tipoUtilizador) {
         this.nome = nome;
         this.estado = estado;
+        this.tipoUtilizador = tipoUtilizador;
     }
 
     public String getNome() {
@@ -21,5 +23,13 @@ public class Utilizador {
 
     public void setEstado(String estado) {
         this.estado = estado;
+    }
+
+    public TipoUtilizador getTipoUtilizador() {
+        return tipoUtilizador;
+    }
+
+    public void setTipoUtilizador(TipoUtilizador tipoUtilizador) {
+        this.tipoUtilizador = tipoUtilizador;
     }
 }
