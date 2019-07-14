@@ -28,6 +28,20 @@ public class RepositorioMem implements Repositorio {
 
     ArrayList<RequisicaoCompra> arrayRequisicaoCompra = new ArrayList<>();
 
+    ArrayList<Evento> arrayEvento = new ArrayList<>();
+
+    ArrayList<Orcamento> arrayOrcamento = new ArrayList<>();
+
+    ArrayList<PropostaReparacao> arrayPropostaReparacao = new ArrayList<>();
+
+    ArrayList<RequisicaoCartao> arrayRequisicaoCartao = new ArrayList<>();
+
+    ArrayList<Cartao> arrayCartao = new ArrayList<>();
+
+    ArrayList<Responsavel> arrayResponsavel = new ArrayList<>();
+
+
+
 
 
 
@@ -66,6 +80,32 @@ public class RepositorioMem implements Repositorio {
     {
         arrayDevolucao.add(devolucao);
     }
+    public void adicionaEvento(Evento evento)
+    {
+        arrayEvento.add(evento);
+    }
+    public void adicionaOrcamento(Orcamento orcamento)
+    {
+        arrayOrcamento.add(orcamento);
+    }
+    public void adicionaPropostaReparacao(PropostaReparacao propostaReparacao)
+    {
+        arrayPropostaReparacao.add(propostaReparacao);
+    }
+    public void adicionionaRequisicaoCartao(RequisicaoCartao requisicaoCartao)
+    {
+        arrayRequisicaoCartao.add(requisicaoCartao);
+    }
+    public void adicionaCartao(Cartao cartao)
+    {
+        arrayCartao.add(cartao);
+    }
+    public void adicionaResponsavel(Responsavel responsavel)
+    {
+        arrayResponsavel.add(responsavel);
+    }
+
+
 
     public void adicionaCoima(Coima coima)
     {
@@ -79,7 +119,6 @@ public class RepositorioMem implements Repositorio {
     }
 
     public void adicionaEntradaNovoLivro(EntradaNovoLivro entradaNovoLivro)
-
     {
 
         arrayEntrada.add(entradaNovoLivro);
